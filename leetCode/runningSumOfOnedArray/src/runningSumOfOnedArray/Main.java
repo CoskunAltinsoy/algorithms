@@ -22,6 +22,7 @@ public class Main {
 //			}
 //	        return arr;
 		 
+		 
 		 int arrLength = nums.length;
 		    for(int i=0;i<arrLength;i++){
 	            if(i==0)
@@ -32,5 +33,6 @@ public class Main {
 		   	
 	        return nums;
 	    }
-
+	 //second one has less time complexity
+     // explanation of this problem --> https://leetcode.com/problems/running-sum-of-1d-array/?envType=study-plan&id=level-1
 }
